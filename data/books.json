@@ -1,0 +1,28 @@
+[
+  {
+    "bookId": "29daa5a9-d466-4ab3-aef5-fb7c58250af4",
+    "authorId": "123",
+    "publisherId": "456",
+    "title": "darenSami",
+    "publicationDate": "2025-01-012",
+    "isbn": "123456789",
+    "pages": 300,
+    "genre": "Programming",
+    "description": "A guide to mastering GoLang.",
+    "price": 29.99,
+    "quantity": 10
+  },
+  {
+    "bookId": "81e38072-8c43-4c4c-a308-d070ee8d54fb",
+    "authorId": "123",
+    "publisherId": "456",
+    "title": "hello sam ",
+    "publicationDate": "2025-01-012",
+    "isbn": "123456789",
+    "pages": 300,
+    "genre": "Programming",
+    "description": "A guide to mastering GoLang.",
+    "price": 29.99,
+    "quantity": 10
+  }
+]
