@@ -1,6 +1,8 @@
 # Book-store Assigment
 
 # should be installed 
+
+
    docker
    minikube
    kubectl
