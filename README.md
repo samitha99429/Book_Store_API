@@ -1,19 +1,41 @@
-# Book-store Assigment
+# Book Store Assignment
 
-# should be installed 
+## Prerequisites
+Ensure you have the following installed:
+- Docker
+- Minikube
+- Kubectl
 
+## Running the Application
 
-   docker
-   minikube
-   kubectl
+1. Start Minikube:
+   ```sh
+   minikube start
+   ```
 
-# Commands to follow run athe application
+2. Set Docker to use Minikube:
+   ```sh
+   eval $(minikube docker-env)
+   ```
 
+3. Build the Docker image:
+   ```sh
+   docker build -t my-book-api-image:latest .
+   ```
 
-minikube start
-eval $(minikube docker-env)
-docker build -t my-book-api-image:latest .
-kubectl apply -f deployment.yaml
-minikube service my-book-api-service
+4. Deploy the application:
+   ```sh
+   kubectl apply -f deployment.yaml
+   ```
 
+5. Expose the service:
+   ```sh
+   minikube service my-book-api-service
+   ```
+
+## Stopping the Application
+To stop Minikube:
+```sh
+minikube stop
+```
 
